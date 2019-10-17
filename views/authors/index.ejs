@@ -1,0 +1,8 @@
+<h2>Authors:</h2>
+<% authors.forEach(function(author) { %>
+    <div>
+        <h3><a href="/authors/<%= author.id %>"> <%= author.name %></a></h3>
+        <p>Mustache Size: <%= author.mustacheSize %> cm</p>
+
+    </div>
+<% }) %>

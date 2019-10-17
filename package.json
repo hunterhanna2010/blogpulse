@@ -1,0 +1,29 @@
+{
+  "name": "blogpulse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "pg": "^7.12.1",
+    "sequelize": "^5.19.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hunterhanna2010/blogpulse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hunterhanna2010/blogpulse/issues"
+  },
+  "homepage": "https://github.com/hunterhanna2010/blogpulse#readme"
+}
